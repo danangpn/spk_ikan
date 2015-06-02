@@ -1,0 +1,10 @@
+<?php
+extract($_GET);
+extract($_POST);
+$host="localhost";
+$userdb="root";
+$passdb="";
+$namadb="spk";
+$sambung=mysql_connect($host,$userdb,$passdb);
+mysql_select_db($namadb,$sambung);
+?>

@@ -1,0 +1,32 @@
+Skenario:
+1. Data yang dibutuhkan pada form "input data" dimasukan sesuai yg diminta
+2. Klik Tombol Proses.
+	2.1. ketika tombol proses ditekan, berubah Menjadi RESET (Untuk megosongkan form)
+	2.2. ketika tombol PROSES ditekan, aplikasi melakukan kalkulasi yg ada di kolom analisa
+	2.3. ketika tombol PROSES ditekan, data-data dari form "input data" dimasukan ke database (data analisa tidak perlu masuk ke database).
+3. Pada kolom kanan, data pengguna, ditampilkan data nama, luas, alamat semua data yg ada di database
+	3.1. tujuan dari tampilan ini untuk menunjukan data record pengguna aplikasi
+	3.2. list kolom "data Pengguna" terdapat link untuk melihat penghitungan dan data-data inputnya.
+	3.3. data input masuk ke form input data, tombol berubah jadi RESET (seperti penghitungan atas).
+	3.4. hasil penghitungan ditampilkan di kolom analisa.
+
+
+job:
+---JOB 1------
+[1] 2.3. ketika tombol PROSES ditekan, data-data dari form "input data" dimasukan ke database (data analisa tidak perlu masuk ke database).
+	a. membuat database sesuai kebutuhan, ada tanggal menggunakan aplikasi
+	b. coding INSERT Into database jika No. identitas AND Luas kolam berbeda dg data yg ada di database (belum pernah menggunakan aplikasi)
+	c. coding Update database jika no.identitas AND luas kolam sudah ada di database (pernah menggunakan aplikasi)
+----Sampai ini dulu aja-----	
+
+
+
+
+----job 2 buat besok lagi----
+[2]3. Pada kolom kanan, data pengguna, ditampilkan data nama, luas, alamat semua data yg ada di database
+	3.1. tujuan dari tampilan ini untuk menunjukan data record pengguna aplikasi
+	3.2. list kolom "data Pengguna" terdapat link untuk melihat penghitungan dan data-data inputnya.
+	3.3. data input masuk ke form input data, tombol berubah jadi RESET (seperti penghitungan atas).
+	3.4. hasil penghitungan ditampilkan di kolom analisa.
+
+
